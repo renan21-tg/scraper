@@ -1,0 +1,35 @@
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Editor/IDE specific files
+.idea/  # PyCharm
+.vscode/ # VS Code
+*.swp # Vim swap files
+*~ # Emacs backup files
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Test and build artifacts
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Sensitive information (e.g., API keys, passwords)
+config.ini
+.env

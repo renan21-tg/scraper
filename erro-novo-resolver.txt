@@ -1,0 +1,20 @@
+(venv) D:\Fatec\SEMESTRE-4\API\Scraper>python scraper.py
+--- Iniciando busca para o Part Number: CL10C330JB8NNNC ---
+
+[ETAPA 1 - SELENIUM STEALTH] Buscando 'CL10C330JB8NNNC' na Arrow...
+(Navegador iniciado, acessando a URL da Arrow...)
+(Aguardando o elemento do fabricante aparecer na página...)
+(Elemento encontrado! Extraindo texto...)
+
+[✓] Nome do fabricante encontrado: Samsung Electro-Mechanics
+
+[ETAPA 2] Buscando endereço para 'Samsung Electro-Mechanics' no Google...
+
+[!] Não foi possível encontrar um endereço para 'Samsung Electro-Mechanics'.
+Exception ignored in: <function Chrome.__del__ at 0x000002113DB77100>
+Traceback (most recent call last):
+  File "D:\Fatec\SEMESTRE-4\API\Scraper\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 843, in __del__
+    self.quit()
+  File "D:\Fatec\SEMESTRE-4\API\Scraper\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 798, in quit
+    time.sleep(0.1)
+OSError: [WinError 6] Identificador inválido
